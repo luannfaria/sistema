@@ -1,0 +1,44 @@
+<?php
+ return [
+"barcodes" => "Códigos de barras", /* ATUALIZADO*/
+"barcode_settings" => "Configuração de Etiquetas", /* ATUALIZADO*/
+"manage_your_barcodes" => "Configure suas etiquetas",/* ATUALIZADO*/
+"all_your_barcode" => "Configurações de etiqueta",/* ATUALIZADO*/
+"setting_name" => "Nome configuração da etiqueta", /* ATUALIZADO*/
+"setting_description" => "Descrição", /* ATUALIZADO*/
+"added_success" => "Adicionado com sucesso", /* ATUALIZADO*/
+"updated_success" => "Atualizado com sucesso", /* ATUALIZADO*/
+"deleted_success" => "Deletada com sucesso", /* ATUALIZADO*/
+"add_new_setting" => "Adicionar nova configuração",/* ATUALIZADO*/
+"add_barcode_setting" => "Adicionar etiqueta", /* ATUALIZADO*/
+"edit_barcode_setting" => "Editar etiqueta", /* ATUALIZADO*/
+"in_in" => "Polegadas", /* ATUALIZADO*/
+"width" => "Largura", /* ATUALIZADO*/
+"height" => "Altura",/* ATUALIZADO*/
+"top_margin" => "Margem superior", /* ATUALIZADO*/
+"left_margin" => "Margem esquerda", /* ATUALIZADO*/
+"row_distance" => "Distancia entre linhas", /* ATUALIZADO*/
+"col_distance" => "Distancia entre colunas" /* ATUALIZADO*/,
+"blank_stickers" => "Etiquetas em branco", /* ATUALIZADO*/
+"stickers_in_one_row" => "N° Etiquetas na linha", /* ATUALIZADO*/
+"delete_confirm" => "Tem certeza que deseja excluir?", /* ATUALIZADO*/
+"set_as_default" => "Definir padrão", /* ATUALIZADO*/
+"default" => "Padrão", /* ATUALIZADO*/
+"default_set_success" => "Ajuste padrão confirmado com sucesso",/* ATUALIZADO*/
+"stickers_in_one_sheet" => "Nº de etiqueta por pagina",/* ATUALIZADO*/
+"is_continuous" => "Alimentac ión continua o rollos",
+"products" => "Produtos",/* ATUALIZADO*/
+"no_of_labels" => "Nº de etiquetas",/* ATUALIZADO*/
+"info_in_labels" => "Informações impressas na etiqueta", /* ATUALIZADO*/
+"print_name" => "Nome do produto", /* ATUALIZADO*/
+"print_variations" => "Variação do produto (recomendado)", /* ATUALIZADO*/
+"print_price" => "Preço", /* ATUALIZADO*/
+"show_price" => "Mostrar preço",/* ATUALIZADO*/
+"preview" => "Avançar", /* ATUALIZADO*/
+"print_business_name" => "Nome da empresa", /* ATUALIZADO*/
+"barcode_setting" => "Ajuste do código de barras",/* ATUALIZADO*/
+"paper_width" => "Largura do papel", /* ATUALIZADO*/
+"paper_height" => "Altura do papel", /* ATUALIZADO*/
+"print_labels" => "Imprimir etiquetas", /* ATUALIZADO*/
+"labels" => "Etiquetas", /* ATUALIZADO*/
+];
