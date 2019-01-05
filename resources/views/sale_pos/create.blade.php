@@ -17,12 +17,12 @@
 <!-- Main content -->
 <section class="content no-print">
 	<div class="row">
-		<div class="col-md-7 col-sm-12">
+		<div class="col-md-6 col-sm-12">
 			<div class="box box-success">
 
 				<div class="box-header with-border">
 					<div class="col-sm-6">
-						<h3 class="box-title">POS Terminal <i class="fa fa-keyboard-o hover-q text-muted" aria-hidden="true" data-container="body" data-toggle="popover" data-placement="bottom" data-content="@include('sale_pos.partials.keyboard_shortcuts_details')" data-html="true" data-trigger="hover" data-original-title="" title=""></i></h3>
+						<h3 class="box-title">PDV <i class="fa fa-keyboard-o hover-q text-muted" aria-hidden="true" data-container="body" data-toggle="popover" data-placement="bottom" data-content="@include('sale_pos.partials.keyboard_shortcuts_details')" data-html="true" data-trigger="hover" data-original-title="" title=""></i></h3>
 					</div>
 					<input type="hidden" id="item_addition_method" value="{{$business_details->item_addition_method}}">
 					@if(is_null($default_location))
@@ -122,7 +122,7 @@
 									<th class="tex-center col-md-4">	
 										@lang('sale.product') @show_tooltip(__('lang_v1.tooltip_sell_product_column'))
 									</th>
-									<th class="text-center col-md-3">
+									<th class="text-center col-md-2">
 										@lang('sale.qty')
 									</th>
 									<th class="text-center col-md-2 {{$hide_tax}}">
@@ -147,7 +147,7 @@
 			<!-- /.box -->
 		</div>
 
-		<div class="col-md-5 col-sm-12">
+		<div class="col-md-6 col-sm-12">
 			@include('sale_pos.partials.right_div')
 		</div>
 	</div>

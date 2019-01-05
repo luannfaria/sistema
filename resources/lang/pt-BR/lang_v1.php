@@ -93,8 +93,8 @@ return [
 "tooltip_sr_no" => "Habilitar o deshabilitar la adición de IMEI o número de serie del producto al agregar productos en la pantalla POS", 
 "description" => "Descrição", /* ATUALIZADO*/
 "sell_line_description_help" => "Agregue el IMEI del producto, el número de serie u otra información aquí.", 
-"unit_cost_before_discount" => "Coste unitario (antes del descuento)", /* modified */
-"discount_percent" => "Porcentagem de desconto",  /* ATUALIZADO*/
+"unit_cost_before_discount" => "Custo UN", /* modified */
+"discount_percent" => "% de desconto",  /* ATUALIZADO*/
 "application_tour" => "Recorrido de solicitud", 
 "profile" => "Perfil", /* ATUALIZADO*/
 "sign_out" => "Sair", /* ATUALIZADO*/

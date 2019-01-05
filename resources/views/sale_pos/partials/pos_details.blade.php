@@ -80,7 +80,7 @@
 						<td class="col-md-3">
 							<b>@lang('sale.total_payable'):</b>
 							@if(empty($edit))
-								<button type="button" class="btn btn-danger btn-flat btn-xs pull-right" id="pos-cancel">@lang('sale.cancel')</button>
+								<!--<button type="button" class="btn btn-danger btn-flat btn-lg pull-right" id="pos-cancel">@lang('sale.cancel')</button>!-->
 							@else
 								<button type="button" class="btn btn-danger btn-flat hide btn-xs pull-right" id="pos-delete">@lang('messages.delete')</button>
 							@endif
@@ -109,16 +109,24 @@
 							<div class="col-sm-10 col-no-padding">
 
 								<div class="col-sm-4 col-2px-padding">
-									<button type="button" class="btn bg-navy  btn-block btn-flat btn-lg no-print @if($pos_settings['disable_pay_checkout'] != 0) hide @endif pos-express-btn" id="pos-finalize" title="@lang('lang_v1.tooltip_checkout_multi_pay')">
+
+										<button type="button" class="btn bg-navy btn-block btn-flat btn-lg no-print pos-express-btn pos-express-finalize" id="pos-cancel">
+												<div class="text-center">
+														<i class="fa fa-check" aria-hidden="true"></i>
+														<b>@lang('sale.cancel')</b>
+												</div>
+										
+										</button>
+								<!--	<button type="button" class="btn bg-navy  btn-block btn-flat btn-lg no-print @if($pos_settings['disable_pay_checkout'] != 0) hide @endif pos-express-btn" id="pos-finalize" title="@lang('lang_v1.tooltip_checkout_multi_pay')">
 									<div class="text-center">
 										<i class="fa fa-check" aria-hidden="true"></i>
 	    								<b>@lang('lang_v1.checkout_multi_pay')</b>
 	    							</div>
-									</button>
+									</button>!-->
 								</div>
 
 								<div class="col-sm-4 col-2px-padding">
-									<button type="button" 
+									<!--<button type="button" 
 									class="btn bg-maroon btn-block btn-flat btn-lg no-print pos-express-btn pos-express-finalize" 
 									data-pay_method="card"
 									title="@lang('lang_v1.tooltip_express_checkout_card')" >
@@ -126,7 +134,8 @@
 										<i class="fa fa-check" aria-hidden="true"></i>
 	    								<b>@lang('lang_v1.express_checkout_card')</b>
 	    							</div>
-									</button>
+									</button>!-->
+									<button type="button" class="btn btn-danger btn-flat btn-lg pull-right" id="pos-cancel">@lang('sale.cancel')</button>
 								</div>
 
 								<div class="col-sm-4 col-2px-padding">

@@ -33,9 +33,9 @@
 "final" => "Final",
 "invoice_no" => "PEDIDO n°", /* ATUALIZADO*/
 "customer_name" => "Nome do cliente", /* ATUALIZADO*/
-"payment_status" => "Estado de pago",
+"payment_status" => "Status",
 "status" => "Status", /* ATUALIZADO*/
-"total_amount" => "Total de itens", /* ATUALIZADO*/
+"total_amount" => "Valor", /* ATUALIZADO*/
 "total_paid" => "Total pagado",
 "total_remaining" => "Total restante",
 "payment_info" => "Información de pago",

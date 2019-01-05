@@ -38,7 +38,7 @@
         @endif
 
         @can('sell.create')
-          <a href="{{action('SellPosController@create')}}" title="POS" data-toggle="tooltip" data-placement="bottom" class="btn btn-success btn-flat pull-left m-8 hidden-xs btn-sm mt-10">
+          <a href="{{action('SellPosController@create')}}" title="PDV" data-toggle="tooltip" data-placement="bottom" class="btn btn-success btn-flat pull-left m-8 hidden-xs btn-sm mt-10">
             <strong><i class="fa fa-th-large"></i> &nbsp; POS</strong>
           </a>
         @endcan

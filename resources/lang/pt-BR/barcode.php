@@ -26,12 +26,12 @@
 "default" => "Padrão", /* ATUALIZADO*/
 "default_set_success" => "Ajuste padrão confirmado com sucesso",/* ATUALIZADO*/
 "stickers_in_one_sheet" => "Nº de etiqueta por pagina",/* ATUALIZADO*/
-"is_continuous" => "Alimentac ión continua o rollos",
+"is_continuous" => "Etiquetas em rolo",
 "products" => "Produtos",/* ATUALIZADO*/
 "no_of_labels" => "Nº de etiquetas",/* ATUALIZADO*/
 "info_in_labels" => "Informações impressas na etiqueta", /* ATUALIZADO*/
 "print_name" => "Nome do produto", /* ATUALIZADO*/
-"print_variations" => "Variação do produto (recomendado)", /* ATUALIZADO*/
+"print_variations" => "Tipo/tamanho do produto (recomendado)", /* ATUALIZADO*/
 "print_price" => "Preço", /* ATUALIZADO*/
 "show_price" => "Mostrar preço",/* ATUALIZADO*/
 "preview" => "Avançar", /* ATUALIZADO*/

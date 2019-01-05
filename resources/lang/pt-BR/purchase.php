@@ -1,12 +1,12 @@
 <?php 
  return [ 
 "supplier" => "Fornecedor", /* ATUALIZADO*/
-"ref_no" => "Numero NF",/* ATUALIZADO*/
+"ref_no" => "Numero DOC",/* ATUALIZADO*/
 "business_location" => "Estoque/loja",/* ATUALIZADO*/
 "purchases" => "Compras", /* ATUALIZADO*/
 "add_payment" => "PAGAMENTOS",/* ATUALIZADO*/
-"edit_payment" => "Editar pago",
-"view_payments" => "Ver pagos",
+"edit_payment" => "Editar pagamentos",
+"view_payments" => "Ver pagamentos",
 "amount_already_paid" => "Cantidad ya pagada",
 "payment_added_success" => "Pago agregado con éxito",
 "payment_updated_success" => "Pago actualizado con éxito",
@@ -29,8 +29,8 @@
 "subtotal_before_tax" => "Subtotal (antes de impuestos)",
 "product_tax" => "Impuesto sobre el producto",
 "net_cost" => "Coste neto", /* modified */
-"line_total" => "Linea total",
-"unit_selling_price" => "Precio de venta unitario", /* modified */
+"line_total" => "Sub total",
+"unit_selling_price" => "Preço de venda", /* modified */
 "total_before_tax" => "Total antes de impuestos", /* modified */
 "net_total_amount" => "TOTAL DOS ITENS",/* ATUALIZADO*/
 "discount_type" => "Tipo de descuento",
@@ -39,17 +39,17 @@
 "edit_purchase" => "Editar compra",
 "purchase_tax" => "Impuesto de compra",
 "shipping_details" => "Detalles de envío",
-"additional_shipping_charges" => "Cargos de envío adicionales",
+"additional_shipping_charges" => "VALOR DE FRETE",
 "additional_notes" => "Notas adicionales",
 "purchase_add_success" => "Compra agregada con éxito", /* modified */
 "purchase_update_success" => "Compra atualizada com sucesso",
-"purchase_details" => "Detalles de la compra",
+"purchase_details" => "Detalhes da compra",
 "unit_cost_after_tax" => "Precio de coste unitario (después de impuestos)", /* modified */
 "total_after_tax" => "Total después de impuestos",
 "no_payments" => "No se encontraron pagos", 
 "allow_purchase_different_currency" => "Compras em moeda estrangeira", 
 "purchase_currency" => "Moeda de compra", 
-"p_exchange_rate" => "Tasa de cambio de moneda", 
+"p_exchange_rate" => "Taxa de cambio", 
 "diff_purchase_currency_help" => "La divisa de compra está configurada en <strong> :currency </strong>", 
 "list_purchase" => "Lista de compras", /* ATUALIZADO*/
 "attach_document" => "PDF Documento de compra", /* ATUALIZADO*/

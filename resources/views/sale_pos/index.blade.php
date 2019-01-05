@@ -5,7 +5,7 @@
 
 <!-- Content Header (Page header) -->
 <section class="content-header no-print">
-    <h1>POS
+    <h1>PDV
     </h1>
 </section>
 

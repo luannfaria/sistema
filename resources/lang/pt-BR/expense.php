@@ -1,10 +1,10 @@
 <?php 
  return [ 
 "expenses" => "Contas a pagar", /* Atualizado */
-"expense_categories" => "Categoria de contas",/* Atualizado */
-"manage_your_expense_categories" => "Gestiona tus categorías de gastos",
-"all_your_expense_categories" => "Todas tus categorías de gastos", /* modified */
-"expense_category" => "Categoria de contas",/* Atualizado */
+"expense_categories" => "Categoria contas a pagar",/* Atualizado */
+"manage_your_expense_categories" => "Gerenciar contas a pagar",
+"all_your_expense_categories" => "Todas contas", /* modified */
+"expense_category" => "Categoria",/* Atualizado */
 "category_name" => "Nome da categoria",
 "category_code" => "código de categoria",
 "added_success" => "Categoria de despesas adicionadas com sucesso",
@@ -12,7 +12,7 @@
 "deleted_success" => "Categoria de despesas excluídas com sucesso",
 "add_expense_category" => "Adicionar categoria de despesa",
 "edit_expense_category" => "Editar categoria de despesa",
-"all_expenses" => "Todos os gastos",/* Atualizado */
+"all_expenses" => "Todas as despesas",/* Atualizado */
 "expense_status" => "status de despesa",
 "add_expense" => "Adicionar contando para pagar",
 "edit_expense" => "Editar despesa",

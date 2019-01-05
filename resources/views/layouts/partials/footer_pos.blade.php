@@ -6,6 +6,6 @@
     </div> -->
     <!-- Default to the left -->
     <small>
-    	<b>{{ config('app.name', 'ultimatePOS') }} - V{{config('author.app_version')}} | Copyright &copy; {{ date('Y') }} All rights reserved.</b>
+    	<b>{{ config('app.name', 'Profit sistemas') }} - V{{config('author.app_version')}} | Copyright &copy; {{ date('Y') }} All rights reserved.</b>
     </small>
 </footer>
