@@ -18,7 +18,7 @@
 "total_due" => "Debido",
 "contacts" => "Fornecedores e clientes",/* Atualizado */
 "contact" => "Contacto",
-"stock_report" => "Informe de stock",
+"stock_report" => "Estoque",
 "products" => "Produtos",/* Atualizado */
 "current_stock" => "Estoque atual",/* Atualizado */
 "total_unit_sold" => "Unidad total vendida",
@@ -31,13 +31,13 @@
 "trending_products" => "Productos de tendencia",
 "apply_filters" => "Aplicar filtros",/* Atualizado */
 "filters" => "Filtros",/* Atualizado */
-"expense_report" => "Informe de gastos",
+"expense_report" => "Despesas",
 "total_expense" => "Gasto total",
 "others" => "Outros",/* Atualizado */
 "all" => "Todos",/* Atualizado */
 "top_trending_products" => "Productos de tendencia superior",
 "all_locations" => "Todas lojas",/* Atualizado */
-"stock_adjustment_report" => "Informe de ajuste de stock",
+"stock_adjustment_report" => "Ajuste de estoque",
 "total_stock_adjustment" => "Ajuste de stock total",
 "total_recovered" => "Cantidad total recuperada",
 "total_normal" => "Total Normal",
@@ -61,7 +61,7 @@
 "expiring_in_3_months" => "Vencimiento en 3 meses", 
 "expiring_in_6_months" => "Vencimiento en 6 meses", 
 "expiring_in_1_year" => "Vencimiento en un año", 
-"profit_loss" => "Informe de ganancias / pérdidas", 
+"profit_loss" => "Entradas / Saídas", 
 "opening_stock" => "Stock de apertura", 
 "closing_stock" => "Stock de cierre", /* modified */
 "total_expense" => "Gasto total", 

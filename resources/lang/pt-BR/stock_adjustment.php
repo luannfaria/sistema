@@ -4,12 +4,12 @@
 "stock_adjustments" => "Ajustes de estoque",/* ATUALIZADO*/
 "list" => "Todos ajustes",/* ATUALIZADO*/
 "add" => "Novo ajuste de estoque", /* ATUALIZADO*/
-"all_stock_adjustments" => "Todos ajustes de estoque",/* ATUALIZADO*/
+"all_stock_adjustments" => "Ajuste de estoque",/* ATUALIZADO*/
 "search_product" => "Buscar produtos",/* ATUALIZADO*/
 "adjustment_type" => "Tipo de ajuste",/* ATUALIZADO*/
 "normal" => "Normal",
 "abnormal" => "Anormal",
-"total_amount" => "Cantidad total",
+"total_amount" => "Valor itens",
 "total_amount_recovered" => "Cantidad total recuperada",
 "reason_for_stock_adjustment" => "Descrição",/* ATUALIZADO*/
 "stock_adjustment_added_successfully" => "Adicionado com sucesso",/* ATUALIZADO*/

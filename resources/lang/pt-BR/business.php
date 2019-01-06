@@ -14,8 +14,8 @@ return [
     "landmark" => "Ponto de refêrencia", /* Atualizado */
     "tax_1_name" => "Taxa", /* ATUALIZADO*/
     "tax_1_no" => "Taxa 1",/* ATUALIZADO*/
-    "tax_2_name" => "Impuesto 2 Nombre", 
-    "tax_2_no" => "Impuesto 2 No",
+    "tax_2_name" => "Imposto 2nome", 
+    "tax_2_no" => "Imposto 2 N",
     "tax_1_placeholder" => "GST / VAT / Otro",
     "prefix" => "Função",/* ATUALIZADO*/
     "prefix_placeholder" => "Caixa, motoboy, garçom", /* ATUALIZADO*/
@@ -26,11 +26,11 @@ return [
     "password" => "Senha",/* ATUALIZADO*/
     "confirm_password" => "Confirmar senha",/* ATUALIZADO*/
     "register" => "Registro", /* Atualizado */
-    "business" => "Empresa",  /* Atualizado */
+    "business" => "Dados da empresa",  /* Atualizado */
     "address" => "Endereço", /* Atualizado */
     "logo_help" => "Insira sua logo", /* Atualizado */
     "update_settings" => "Atualizar", /* Atualizado */
-    "business_settings" => "Configuração da empresa",  /* Atualizado */
+    "business_settings" => "Dados da empresa",  /* Atualizado */
     "settings_updated_success" => "Configurações atualizadas", /* Atualizado */
     "default_profit_percent" => "Margem de lucro padrão",
     "default_sales_tax" => "Imposto padrão", 
@@ -64,7 +64,7 @@ return [
     'accounting_method' => 'Metodo de estoque',/* ATUALIZADO*/
     "fifo" => "FIFO (Primeiro a entrar primeiro a sair)",/* ATUALIZADO*/
     "lifo" => "LIFO (último a entrar primeiro a sair)",/* ATUALIZADO*/
-    "business_locations" => "Lojas",/* ATUALIZADO*//* ATUALIZADO*/
+    "business_locations" => "Empresas / Lojas",/* ATUALIZADO*//* ATUALIZADO*/
     "business_location" => "Todas nossas lojas", /* ATUALIZADO*/
     "manage_your_business_locations" => "Lojas", /* ATUALIZADO*/
     "all_your_business_locations" => "Todas lojas", /* ATUALIZADO*/
@@ -87,7 +87,7 @@ return [
     "dashboard" => "Painel", /* Atualizado */
     "view_stock_expiry_alert_for" => "Ver Alerta de esxpiración de stocl para", 
     "days" => "Dias", /* Atualizado */
-    "system_settings" => "Configurações do sistema", /* Atualizado */
+    "system_settings" => "Sistema", /* Atualizado */
     "add_keyboard_shortcuts" => "Adicionar teclas de atalho",/* Atualizado */
     "operations" => "Operações", /* ATUALIZADO*/
     "keyboard_shortcut" => "Teclas de atalho", /* ATUALIZADO*/

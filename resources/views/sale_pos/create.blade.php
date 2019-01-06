@@ -119,7 +119,7 @@
 						<table class="table table-condensed table-bordered table-striped table-responsive" id="pos_table">
 							<thead>
 								<tr>
-									<th class="tex-center col-md-4">	
+									<th class="text-center col-md-5">	
 										@lang('sale.product') @show_tooltip(__('lang_v1.tooltip_sell_product_column'))
 									</th>
 									<th class="text-center col-md-2">
@@ -128,10 +128,10 @@
 									<th class="text-center col-md-2 {{$hide_tax}}">
 										@lang('sale.price_inc_tax')
 									</th>
-									<th class="text-center col-md-3">
+									<th class="text-center col-md-2">
 										@lang('sale.subtotal')
 									</th>
-									<th class="text-center"><i class="fa fa-trash" aria-hidden="true"></i></th>
+									<th class="text-center col-md-2"><i class="fa fa-trash" aria-hidden="true"></i></th>
 								</tr>
 							</thead>
 							<tbody></tbody>

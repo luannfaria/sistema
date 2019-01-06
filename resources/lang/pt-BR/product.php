@@ -54,7 +54,7 @@ return [
     'exp_date' => 'EXP Date',
     'view_product' => 'Visualizar produto', /* ATUALIZADO*/
     'add_product' => 'Novo produto', /* ATUALIZADO*/
-    'variations' => 'Tipos e tamanhos', /* ATUALIZADO*/
+    'variations' => 'Grades/Variações', /* ATUALIZADO*/
     'import_products' => 'Importar produtos', /* ATUALIZADO*/
     'file_to_import' => 'Arquivo para importar', /* ATUALIZADO*/
     'file_imported_successfully' => 'Importado com sucesso', /* ATUALIZADO*/

@@ -408,13 +408,13 @@
           <ul class="treeview-menu" id="tour_step3">
             @can('business_settings.access')
               <li class="{{ $request->segment(1) == 'business' ? 'active' : '' }}">
-                <a href="{{action('BusinessController@getBusinessSettings')}}" id="tour_step2"><i class="fa fa-cogs"></i> @lang('business.business_settings')</a>
+                <a href="{{action('BusinessController@getBusinessSettings')}}" id="tour_step2"><i class="fa fa-suitcase"></i> @lang('business.business_settings')</a>
               </li>
               <li class="{{ $request->segment(1) == 'system-settings' ? 'active' : '' }}">
-                <a href="{{action('BusinessController@getSystemSettings')}}"><i class="fa fa-wrench"></i> @lang('business.system_settings')</a>
+                <a href="{{action('BusinessController@getSystemSettings')}}"><i class="fa fa-cog"></i> @lang('business.system_settings')</a>
               </li>
               <li class="{{ $request->segment(1) == 'business-location' ? 'active' : '' }}" >
-                <a href="{{action('BusinessLocationController@index')}}"><i class="fa fa-map-marker"></i> @lang('business.business_locations')</a>
+                <a href="{{action('BusinessLocationController@index')}}"><i class="fa fa-home"></i> @lang('business.business_locations')</a>
               </li>
             @endcan
             @can('invoice_settings.access')

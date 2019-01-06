@@ -18,7 +18,7 @@
            'files' => true ]) !!}
     <div class="row">
         <div class="col-sm-12">
-            <div class="box box-solid"> <!--business info box start-->
+            <div class="box box-success"> <!--business info box start-->
                 <div class="box-header">
                     <h3 class="box-title">@lang('business.business')</h3>
                 </div>

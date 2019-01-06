@@ -17,7 +17,7 @@
 <!-- Main content -->
 <section class="content">
 
-	<div class="box">
+	<div class="box box-success">
         <div class="box-header">
         	<h3 class="box-title">@lang( 'brand.all_your_brands' )</h3>
             @can('brand.create')

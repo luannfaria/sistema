@@ -36,7 +36,7 @@ class Printer extends Model
     public static function connection_types()
     {
         $types = [
-            'network' => 'Network',
+            'network' => 'Rede',
             'windows' => 'Windows',
             'linux' => 'Linux'
         ];

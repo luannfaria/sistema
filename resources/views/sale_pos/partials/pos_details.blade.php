@@ -34,7 +34,7 @@
 							</span>
 						</td>
 
-						<td class="col-md-2">
+						<!--<td class="col-md-2">
 
 							<span class="@if($pos_settings['disable_order_tax'] != 0) hide @endif">
 
@@ -58,7 +58,7 @@
 								value="@if(empty($edit)) {{@num_format($business_details->tax_calculation_amount)}} @else {{@num_format(optional($transaction->tax)->amount)}} @endif" data-default="{{$business_details->tax_calculation_amount}}">
 
 							</span>
-						</td>
+						</td>!-->
 						
 						<!-- shipping -->
 						<td class="col-md-2">
@@ -77,13 +77,9 @@
 						</td>
 
 						
-						<td class="col-md-3">
+						<td class="col-md-4">
 							<b>@lang('sale.total_payable'):</b>
-							@if(empty($edit))
-								<!--<button type="button" class="btn btn-danger btn-flat btn-lg pull-right" id="pos-cancel">@lang('sale.cancel')</button>!-->
-							@else
-								<button type="button" class="btn btn-danger btn-flat hide btn-xs pull-right" id="pos-delete">@lang('messages.delete')</button>
-							@endif
+						
 							<br/>
 							<input type="hidden" name="final_total" 
 								id="final_total_input" value=0>
@@ -95,38 +91,37 @@
 						<td colspan="6">
 						<div class="">
 
-							<div class="col-sm-2 col-no-padding">
+							<div class="col-sm-2 col-2px-padding">
 
-								<button type="button" 
+							<!--	<button type="button" 
 									class="btn btn-warning btn-block btn-flat @if($pos_settings['disable_draft'] != 0) hide @endif" 
-									id="pos-draft">@lang('sale.draft')</button>
+									id="pos-draft">@lang('sale.draft')</button>!-->
 
-								<button type="button" 
+									@if(empty($edit))
+								<button type="button" class="btn btn-danger btn-block btn-flat btn-lg no-print" id="pos-cancel">@lang('sale.cancel')</button>
+							@else
+								<button type="button" class="btn btn-danger btn-flat hide btn-xs pull-right" id="pos-delete">@lang('messages.delete')</button>
+								@endif
+								<!--<button type="button" 
 									class="btn btn-info btn-block btn-flat" 
-									id="pos-quotation">@lang('lang_v1.quotation')</button>
+									id="pos-quotation">@lang('lang_v1.quotation')</button>!-->
 							</div>
 
 							<div class="col-sm-10 col-no-padding">
 
 								<div class="col-sm-4 col-2px-padding">
 
-										<button type="button" class="btn bg-navy btn-block btn-flat btn-lg no-print pos-express-btn pos-express-finalize" id="pos-cancel">
-												<div class="text-center">
-														<i class="fa fa-check" aria-hidden="true"></i>
-														<b>@lang('sale.cancel')</b>
-												</div>
-										
-										</button>
-								<!--	<button type="button" class="btn bg-navy  btn-block btn-flat btn-lg no-print @if($pos_settings['disable_pay_checkout'] != 0) hide @endif pos-express-btn" id="pos-finalize" title="@lang('lang_v1.tooltip_checkout_multi_pay')">
+									
+									<button type="button" class="btn bg-navy  btn-block btn-flat btn-lg no-print @if($pos_settings['disable_pay_checkout'] != 0) hide @endif pos-express-btn" id="pos-finalize" title="@lang('lang_v1.tooltip_checkout_multi_pay')">
 									<div class="text-center">
 										<i class="fa fa-check" aria-hidden="true"></i>
 	    								<b>@lang('lang_v1.checkout_multi_pay')</b>
 	    							</div>
-									</button>!-->
+									</button>
 								</div>
 
 								<div class="col-sm-4 col-2px-padding">
-									<!--<button type="button" 
+									<button type="button" 
 									class="btn bg-maroon btn-block btn-flat btn-lg no-print pos-express-btn pos-express-finalize" 
 									data-pay_method="card"
 									title="@lang('lang_v1.tooltip_express_checkout_card')" >
@@ -134,8 +129,8 @@
 										<i class="fa fa-check" aria-hidden="true"></i>
 	    								<b>@lang('lang_v1.express_checkout_card')</b>
 	    							</div>
-									</button>!-->
-									<button type="button" class="btn btn-danger btn-flat btn-lg pull-right" id="pos-cancel">@lang('sale.cancel')</button>
+									</button>
+								
 								</div>
 
 								<div class="col-sm-4 col-2px-padding">

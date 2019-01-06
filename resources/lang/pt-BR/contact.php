@@ -1,6 +1,6 @@
 <?php 
  return [ 
-"contacts" => "Contatos", /* ATUALIZADO*/
+"contacts" => "Cadastros", /* ATUALIZADO*/
 "name" => "Nome", /* ATUALIZADO*/
 "contact" => "Numero",/* ATUALIZADO*/
 "manage_your_contact" => "Todos :contacts",/* ATUALIZADO*/

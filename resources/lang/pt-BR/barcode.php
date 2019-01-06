@@ -1,7 +1,7 @@
 <?php
  return [
 "barcodes" => "Códigos de barras", /* ATUALIZADO*/
-"barcode_settings" => "Configuração de Etiquetas", /* ATUALIZADO*/
+"barcode_settings" => "Impressão de Etiquetas", /* ATUALIZADO*/
 "manage_your_barcodes" => "Configure suas etiquetas",/* ATUALIZADO*/
 "all_your_barcode" => "Configurações de etiqueta",/* ATUALIZADO*/
 "setting_name" => "Nome configuração da etiqueta", /* ATUALIZADO*/

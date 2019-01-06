@@ -26,7 +26,7 @@
         <div class="col-md-2">
           <h4>@lang( 'lang_v1.user_type' )</h4>
         </div>
-        <div class="col-md-9 col-md-offset-1">
+        <div class="col-md-6 col-md-offset-1">
           <div class="col-md-12">
           <div class="checkbox">
             <label>

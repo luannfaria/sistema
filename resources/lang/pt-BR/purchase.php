@@ -38,10 +38,10 @@
 "discount" => "Desconto",
 "edit_purchase" => "Editar compra",
 "purchase_tax" => "Impuesto de compra",
-"shipping_details" => "Detalles de envío",
+"shipping_details" => "Detalhes do envio",
 "additional_shipping_charges" => "VALOR DE FRETE",
-"additional_notes" => "Notas adicionales",
-"purchase_add_success" => "Compra agregada con éxito", /* modified */
+"additional_notes" => "Observações",
+"purchase_add_success" => "Compra adicionada com sucesso", /* modified */
 "purchase_update_success" => "Compra atualizada com sucesso",
 "purchase_details" => "Detalhes da compra",
 "unit_cost_after_tax" => "Precio de coste unitario (después de impuestos)", /* modified */

@@ -15,6 +15,7 @@ return [
         'sq' => 'Shqip - Albanian',
         'hi' => 'हिंदी - Hindi',
         'nl' => 'Dutch',
+        'pt' => 'Português - Portuguese',
         'fr' => 'Français - French',
         'de' => 'Deutsch - German',
         'ar' => 'Arabic - العَرَبِيَّة'

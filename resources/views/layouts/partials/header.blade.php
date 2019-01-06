@@ -2,7 +2,7 @@
 <!-- Main Header -->
   <header class="main-header no-print">
     <a href="/home" class="logo">
-      
+      <link rel="shortcut icon" href="{{{ asset('img/profit.ico') }}}">
       <span class="logo-lg">{{ Session::get('business.name') }}</span>
     </a>
 

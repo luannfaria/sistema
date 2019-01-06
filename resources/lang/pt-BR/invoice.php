@@ -1,6 +1,6 @@
 <?php 
  return [ 
-"invoice_settings" => "Configuração de vendas",/* ATUALIZADO*/
+"invoice_settings" => "Impressão de pedidos",/* ATUALIZADO*/
 "manage_your_invoices" => "Administra la configuración de tu factura", /* modified */
 "all_your_invoice_schemes" => "Todos tus esquemas de factura", /* modified */
 "added_success" => "Configurações de faturamento adicionadas com sucesso",

@@ -16,8 +16,9 @@
 
 <!-- Main content -->
 <section class="content">
-
-	<div class="box">
+    <div class="row">
+        <div class="col-sm-12">
+	<div class="box box-success">
         <div class="box-header">
         	<h3 class="box-title">@lang('barcode.all_your_barcode')</h3>
         	<div class="box-tools">
@@ -39,7 +40,7 @@
             </div>
         </div>
     </div>
-
+</div></div>
 </section>
 <!-- /.content -->
 @stop

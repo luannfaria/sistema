@@ -16,7 +16,7 @@
     <div class="modal-body">
       <div class="row">
 
-      <div class="col-md-6 contact_type_div">
+      <div class="col-md-3 contact_type_div">
         <div class="form-group">
             {!! Form::label('type', __('contact.contact_type') . ':*' ) !!}
             <div class="input-group">
@@ -38,6 +38,18 @@
             </div>
         </div>
       </div>
+
+      <div class="col-md-3 customer_fields">
+        <div class="form-group">
+            {!! Form::label('customer_group_id', __('lang_v1.customer_group') . ':') !!}
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="fa fa-users"></i>
+                </span>
+                {!! Form::select('customer_group_id', $customer_groups, '', ['class' => 'form-control']); !!}
+            </div>
+        </div>
+      </div>
       <div class="clearfix"></div>
       <div class="col-md-4 supplier_fields">
         <div class="form-group">
@@ -50,6 +62,9 @@
             </div>
         </div>
       </div>
+
+    
+     
       <div class="col-md-4">
         <div class="form-group">
             {!! Form::label('contact_id', __('lang_v1.contact_id') . ':') !!}
@@ -108,17 +123,6 @@
           </div>
         </div>
         
-        <div class="col-md-4 customer_fields">
-          <div class="form-group">
-              {!! Form::label('customer_group_id', __('lang_v1.customer_group') . ':') !!}
-              <div class="input-group">
-                  <span class="input-group-addon">
-                      <i class="fa fa-users"></i>
-                  </span>
-                  {!! Form::select('customer_group_id', $customer_groups, '', ['class' => 'form-control']); !!}
-              </div>
-          </div>
-        </div>
         <div class="col-md-4 customer_fields">
           <div class="form-group">
               {!! Form::label('credit_limit', __('lang_v1.credit_limit') . ':') !!}

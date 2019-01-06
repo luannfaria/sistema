@@ -10,7 +10,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>@yield('title') - {{ config('app.name', 'POS') }}</title> 
+    <title>@yield('title') - {{ config('app.name', 'PDV') }}</title> 
 
     <!-- Styles -->
     <!-- Bootstrap 3.3.6 -->

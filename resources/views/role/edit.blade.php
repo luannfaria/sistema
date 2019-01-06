@@ -55,7 +55,7 @@
               </label>
             </div>
         </div>
-        <div class="col-md-9">
+        <div class="col-md-3">
           <div class="col-md-12">
             <div class="checkbox">
               <label>
@@ -102,7 +102,7 @@
               </label>
             </div>
         </div>
-        <div class="col-md-9">
+        <div class="col-md-4">
           <div class="col-md-12">
             <div class="checkbox">
               <label>
